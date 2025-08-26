@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Pangolin", serif;
+    color: #55a055;
+    background-color: #eeeefe;
+}
+
+header {
+    background-color: #e0e0ff;
+    padding: 10px 20px;
+    border-bottom: solid 3px #5555a0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 1em;
+}
+
+nav a {
+    color: #3333a0;
+}
+
+.profile-section {
+    padding: 40px 0;
+    max-width: 1500px;
+}
+
+.profile-card, .skill-card {
+    background-color: #e0e0ff;
+    border: 3px solid #5555a0;
+    padding: 20px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-right: 720px;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    min-width: 50%;
+}
+
+.profile-card{
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card {
+    
+    justify-content: left;
+    align-items: left;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 3px solid #5555a0;
+    width: 200px;
+    height: 200px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: start;
+    /* max-width: 60%; */
+}
+
+p, .skill-card ul {
+    color:#115011;
+}
+
+h5 {
+    color: #5555a0;
+}
+
+.skill-card {
+    flex-direction: column;
+}
+
+footer p {
+    font-size: 0.75em;
+    color: #3333a0;
+    border-top: 3px solid #5555a0;
+    margin-top: 500px;
+}
