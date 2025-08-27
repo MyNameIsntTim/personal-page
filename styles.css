@@ -33,28 +33,34 @@ nav a {
 .profile-section {
     padding: 40px 0;
     max-width: 1500px;
+    min-width: 1500px;
 }
 
-.profile-card, .skill-card {
+.profile-card, .skill-card, .display-card {
     background-color: #e0e0ff;
     border: 3px solid #5555a0;
     padding: 20px;
     object-fit: cover;
     margin-left: 40px;
     margin-right: 720px;
-    display: flex;
     gap: 20px;
     border-radius: 5px;
-    min-width: 50%;
 }
 
 .profile-card{
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .skill-card {
     
+    justify-content: left;
+    align-items: left;
+    display: flex;
+}
+
+.display-card  {
     justify-content: left;
     align-items: left;
 }
@@ -79,6 +85,10 @@ p, .skill-card ul {
     color:#115011;
 }
 
+.skill-card ul {
+    margin-left: 20px;
+}
+
 h5 {
     color: #5555a0;
 }
@@ -91,5 +101,5 @@ footer p {
     font-size: 0.75em;
     color: #3333a0;
     border-top: 3px solid #5555a0;
-    margin-top: 500px;
+    margin-top: 50px;
 }
